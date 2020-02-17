@@ -79,8 +79,10 @@ const Game = () => {
       <FlexW20>
         <FlexColumn textAli='left'>
           <SiteGuide numOfGuide={11} triaglePos='left'>
-            <Label>Base price at 10:09</Label>
-            <PriceAndTime>8824.47</PriceAndTime>
+            <div style={{ width: '100%', textAlign: 'left' }}>
+              <Label>Base price at 10:09</Label>
+              <PriceAndTime>8824.47</PriceAndTime>
+            </div>
           </SiteGuide>
         </FlexColumn>
       </FlexW20>
@@ -98,12 +100,14 @@ const Game = () => {
         </FlexColumn>
       </FlexW60>
       <FlexW20>
-        <SiteGuide numOfGuide={10} triaglePos='right'>
-          <FlexColumn textAli='right'>
-            <Label>Time left</Label>
-            <PriceAndTime>00:36</PriceAndTime>
-          </FlexColumn>
-        </SiteGuide>
+        <FlexColumn textAli='right'>
+          <SiteGuide numOfGuide={10} triaglePos='right'>
+            <div style={{ width: '100%', textAlign: 'right' }}>
+              <Label>Time left</Label>
+              <PriceAndTime>00:36</PriceAndTime>
+            </div>
+          </SiteGuide>
+        </FlexColumn>
       </FlexW20>
     </>
   );
