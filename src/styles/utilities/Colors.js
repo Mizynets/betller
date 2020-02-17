@@ -1,0 +1,17 @@
+export const base = '#252A42';
+export const baseLight = '#3A405F';
+export const darkBlue = '#1E243A';
+export const backlight = '#31364F';
+export const gray = '#53576C';
+export const yellow = '#FED248';
+export const lightGray = '#CBD1E6';
+export const green = '#00C58C';
+export const red = '#FF2D4D';
+export const white = '#FFFFFF';
+export const tWhite = '#F1F3FF';
+export const dWhite = '#CBD1E6';
+export const graphLine = '#FF6C40';
+export const graphPointer = '#FFE700';
+export const black = '#000000';
+export const scrollMove = '#4A506F';
+export const scrollStatic = '#3A405B';
