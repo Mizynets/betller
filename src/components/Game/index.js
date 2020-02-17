@@ -30,16 +30,19 @@ const Game = () => {
   const active3 = (
     <FlexW60>
       <HighBtn>high</HighBtn>
-      <SiteGuide numOfGuide={3} triaglePos='left'>
-        <BtcInput
-          type='number'
-          defaultValue='0.0002 BTC'
-          min='0.0001'
-          max='1.1000'
-          step='0.0001'
-          placeholder='0.0002 BTC'
-        />
-      </SiteGuide>
+      <div style={{ textAlign: 'center' }}>
+        <SiteGuide numOfGuide={3} triaglePos='left'>
+          <BtcInput
+            type='number'
+            defaultValue='0.0002 BTC'
+            min='0.0001'
+            max='1.1000'
+            step='0.0001'
+            placeholder='0.0002 BTC'
+          />
+        </SiteGuide>
+      </div>
+
       <LowBtn>low</LowBtn>
     </FlexW60>
   );

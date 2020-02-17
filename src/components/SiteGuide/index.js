@@ -88,7 +88,7 @@ export default SiteGuide;
 
 const GuideWrapper = styled.div`
   background: inherit;
-  text-align: center;
+  /* text-align: center; */
   width: inherit;
   box-sizing: content-box;
   border-radius: ${({ active }) => (active ? '1px' : 'none')};
